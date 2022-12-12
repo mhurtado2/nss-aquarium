@@ -11,11 +11,14 @@ h1 {
     text-shadow: 20px;
 }
 
-section {
+.fishList {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+    
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -25,10 +28,12 @@ section {
     text-align: center;
     flex-basis: 20%;
   }
-  
+
+
   /* Add rounded corners to the top left and the top right corner of the image */
   img {
     border-radius: 5px 5px 0 0;
+    width: 250px;
   }
 
   aside {
@@ -37,4 +42,8 @@ section {
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
     color: #29627e;
+    float: right;
+}
+.fish card {
+  margin: 20px 20px 20px 20px;
 }
